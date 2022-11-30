@@ -17,7 +17,7 @@ public class RootLayoutController {
     //Creo un método con una agenda vacía para el botón new.
     @FXML
     private void handleNew(){
-        mainapp.getPersonData();
+        mainapp.getPersonData().clear();
         mainapp.setPersonFilePath(null);
     }
 
